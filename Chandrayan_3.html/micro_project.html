@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandrayaan 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+		nav {
+			background-image:#434349;
+			color:rgb(245, 235, 235);
+			padding: 10px; text-align: center;
+		}
+		.avatar img {
+			background-image: url(
+            width: 300px;
+            height:250px;
+			border-radius:10%;
+            border: 4px solid #011616;
+			margin: 0 50PX 0 150px;
+            box-shadow: 0 0px 30px rgba(0, 0, 0, 0.3); 
+		}
+		.project {
+            background-image: url(https://thumbs.dreamstime.com/b/blue-abstract-colorful-bright-color-paint-brush-art-background-multi-painting-acrylic-water-wallpaper-pastel-gradient-mixed-soft-117217787.jpg);
+			background-position: 50%;
+			background-repeat: no-repeat;
+			background-size: cover;	
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+            padding: 30px;
+			border-bottom: 4px Solid #011616;
+			border-right: 4px Solid #011616;
+			border-Top: 4px Solid #011616;
+			border-left: 4px Solid #011616;
+            margin-bottom: 20px; 
+		}
+		.title{
+			background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyRQP-iw3yGG8MCzD1iGiMNNtvBbkcX8ykCNTdvFVI2g&s);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+            color:#555D50;
+            padding: 2px;
+			width: 300px;
+			margin: auto;
+			border-bottom: 3px Solid #D3D3D3;
+			border-right: 3px Solid #D3D3D3;
+			border-Top: 3px Solid #D3D3D3;
+			border-left: 3px Solid #D3D3D3;
+            margin-bottom: 10px; 
+			text-align:center;
+		}
+        tr:hover{
+            background-color: rgb(124, 121, 121);
+        }
+		.subtl{
+			box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+            color:#555D50;
+            padding: 2px;
+			width: 500px;
+			margin: auto;
+			 margin-bottom: 10px; 
+			text-align:center;
+		border-radius: 40px;	background-image:url(https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8158.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712102400&semt=ais);
+		}
+			
+		 .container {
+			max-width: 1000px;
+			margin: 50px auto;
+			padding: 10px;
+			background-image:url(https://media.istockphoto.com/id/1058444714/photo/abstract-blur-beauty-skyline-scene-with-colorful-background-and-bright-light-effect-for.webp?b=1&s=170667a&w=0&k=20&c=1ViL-O7h4Yi5mAZKQUR91zM_lUatZ8DTegDgwqKeQ44=);
+			background-position: 50%;
+			background-repeat: no-repeat;
+			background-size: cover;	
+			border-radius: 40px;
+			box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+			text-align: center;
+            
+		}
+		p{
+			font-size: 22px;
+			text-align: justify;
+		}
+		footer {
+            background-color: #020e30;
+            color: black;
+			border-radius: 40px;
+			box-shadow: 0 4px 8px rgba(0,0,0,0.1);	
+            padding: 5px 0;
+			font-size: 18px;
+            text-align: center;
+			background-position: 50%;   	background-image:url(https://png.pngtree.com/background/20230411/original/pngtree-dreamy-beautiful-moon-background-picture-image_2390826.jpg);  
+		}
+		header{
+			border-radius: 40px;
+			box-shadow: 0 4px 8px rgba(0,0,0,0.1);	background-image:url(https://png.pngtree.com/background/20230411/original/pngtree-dreamy-beautiful-moon-background-picture-image_2390826.jpg);       
+            background-position: 50%;   
+            color: black;
+            padding: 5px 0;
+			font-size: 30px;
+            text-align: center;
+		}
+		nav ul {
+            padding-right: 1px;
+            color:white;
+			background-color: #434349;
+            margin:0;
+            display: inline-flex;
+            gap:3rem;
+        }
+         
+		li:hover{
+			background-color: rgb(79, 80, 85);
+		}
+        .background{
+			background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxMsM2808PEyBUHh9_hxoLOesaGIbrVbsG6g&s);
+            background-repeat: no-repeat;
+			background-position: 50%;
+            background-size: cover;
+        }
+		.link{
+            color:white;
+        }
+        .box{
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+            color:black;
+            padding: 12px;
+            border-bottom: 1px Solid #332f2f;
+			border-right: 1px Solid #332f2f;
+			border-Top: 1px Solid #332f2f;
+			border-left: 1px Solid #332f2f;
+            border-radius: 5%;
+            margin-bottom: 10px; 
+			text-align: justify;
+            margin:auto;
+            margin-bottom: 10px;
+        }
+        .image-row{
+            align-items: justify;
+        }
+		marquee{
+			direction:right;
+			background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTzAZXli-x9yXQCKMcptLU4eWlaMKyOjOBjA&s);
+			scrolldelay:20;
+			behavior:alternate;
+			color:#FFF;
+		}
+			
+
+	</style>
+</head>
+<body class="background">
+	
+	 <div class="container">
+	 
+	 
+    <header>
+        <h1>Chandrayaan 3 Mission</h1>
+    </header>
+    <br>
+    <nav>
+        <ul class="link">
+            <li><p><a href="#overview">Overview</a></p></li>
+            <li><p><a href="#mission">Mission Details</a></p></li>
+            <li><p><a href="#gallery">Image Gallery</a></p></li>
+            <li><p><a href="#team">Mission Team</a></p></li>
+        </ul>
+    </nav>
+	<marquee direction="right" bgcolor="blue" scrolldelay="20" behavior="alternate"><h1>CHANDRAYAAN-3</h1></marquee><br><Br>
+	 <img src="https://media1.giphy.com/media/3c72P6i3bwA26wsZq6/200.webp?cid=790b7611jw1co5x2kj3jfv4kpg0jim76b5hs5dyhe7ji4bd8&ep=v1_gifs_search&rid=200.webp&ct=g" width="1000" height="500" controls>
+
+
+    <main><br><Br>
+        <section id="overview">
+		<div class="title">
+            <h2>Overview</h2>
+		</div><br>
+        <p class="box">Chandrayaan 3 is India's third lunar exploration mission planned by the Indian Space Research Organisation (ISRO).
+                Chandrayaan-3 is the third mission in the Chandrayaan programme, a series of lunar-exploration missions developed by the Indian Space Research Organisation (ISRO). The mission consists of a Vikram lunar lander and a Pragyan lunar rover similar to those launched aboard Chandrayaan-2 in 2019, as well as a propulsion module that carried the spacecraft from Earth orbit to lunar orbit.
+
+Chandrayaan-3 was launched from Satish Dhawan Space Centre on 14 July 2023. The spacecraft entered lunar orbit on 5 August, and the lander touched down near the lunar south pole on 23 August at 18:03 IST (12:33 UTC), making India the fourth country to successfully land on the Moon, and at 69°S, the southernmost lunar landing, until IM-1 landed further southwards in Malapert A crater on 22 February 2024. [note 1] The lander was not built to withstand the cold temperatures of the lunar night, and sunset over the landing site ended the surface mission twelve days after landing. The propulsion module, still operational, transited back to a high Earth orbit from lunar orbit on 22 November 2023 for continued scientific observations of Earth.
+
+
+            </p>
+            
+        </section>
+<br><br>
+<section id="mission">
+		<div class="title">
+            <h2>Mission Details</h2>
+        </div>   
+<br>		
+        
+				<div class="project">
+                    <table border="2" cellpadding="5" cellspacing="2" align="justify" style="font-size: 22px;">
+                        
+                    <tr>
+                        <th>Sl No.</th>
+                        <th>Parameter</th>
+                    	<th>Specifications</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Mission Life (Lander & Rover)	</td>
+                        <td>One lunar day (~14 Earth days)</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Landing Site (Prime)</td>
+                        <td>4 km x 2.4 km 69.367621 S, 32.348126 E</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>	
+                        <td>Science Payloads</td>
+                        <td>Lander:<br>
+                             Radio Anatomy of Moon Bound Hypersensitive ionosphere and Atmosphere (RAMBHA)<br>
+                             Chandra’s Surface Thermo physical Experiment (ChaSTE)<br>
+                             Instrument for Lunar Seismic Activity (ILSA)<br>
+                             Laser Retroreflector Array (LRA) Rover:<br>
+                             Alpha Particle X-Ray Spectrometer (APXS)<br>
+                            Laser Induced Breakdown Spectroscope (LIBS) Propulsion Module:<br>
+                            Spectro-polarimetry of HAbitable Planet Earth (SHAPE)
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>4.</td>
+                         <td>Two Module Configuration</td>
+                         <td>
+                             Propulsion Module (Carries Lander from launch injection to Lunar orbit)<br>
+                             Lander Module (Rover is accommodated inside the Lander)<br>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Mass</td>	
+                        <td>Propulsion Module: 2148 kg<br>
+                             Lander Module: 1752 kg including Rover of 26 kg<br>
+                             Total: 3900 kg
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Power generation</td>
+                        <td>Propulsion Module: 758 W<br>
+                            Lander Module: 738W, WS with Bias<br>
+                            Rover: 50W
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Communication</td>
+                        <td>Propulsion Module: Communicates with IDSN<br>
+                             Lander Module: Communicates with IDSN and Rover. Chandrayaan-2 Orbiter is also planned for contingency link.<br>
+                             Rover: Communicates only with Lander.
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>8.	</td>
+                         <td>Lander Sensors	</td>
+                         <td>Laser Inertial Referencing and Accelerometer Package (LIRAP)<br>
+                             Ka-Band Altimeter (KaRA)<br>
+                             Lander Position Detection Camera (LPDC)<br>
+                             LHDAC (Lander Hazard Detection & Avoidance Camera)<br>
+                             Laser Altimeter (LASA)<br>
+                             Laser Doppler Velocimeter (LDV)<br>
+                             Lander Horizontal Velocity Camera (LHVC)<br>
+                             Micro Star sensor<br>
+                             Inclinometer & Touchdown sensors<br>
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>9.	</td>
+                         <td>Lander Actuators</td>
+                         <td>Reaction wheels – 4 nos (10 Nms & 0.1 Nm)</td>
+                    </tr>
+                    <tr>
+                    <td>10.</td>
+                    <td>Lander Propulsion System</td>
+                    <td>Bi-Propellant Propulsion System (MMH + MON3), 4 nos. of 800 N Throttleable engines & 8 nos. of 58 N; Throttleable Engine Control Electronics
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>11.</td>	
+                         <td>Lander Mechanisms</td>	
+                         <td>Lander leg<br>
+                              Rover Ramp (Primary & Secondary)<br>
+                              Rover<br>
+                              ILSA, Rambha & Chaste Payloads<br>
+                              Umbilical connector Protection Mechanism,<br>
+                              X- Band Antenna</td>
+                    </tr>
+                    <tr>
+                         <td>12.</td>	
+                         <td>Lander Touchdown specifications	</td>
+                         <td>Vertical velocity: ≤ 2 m / sec<br>
+                             Horizontal velocity: ≤ 0.5 m / sec<br>
+                             Slope: ≤ 12 deg</td>
+                    </tr>
+                    </table> 
+					<p><a href="mission_details.html" target="_blank">for more information click here</a></p>
+					</div>
+                    
+        </section>
+		<br><Br>
+
+        <section id="gallery">
+			<div class="title">
+            <h2>Image Gallery</h2>
+			</div>
+			<br>
+            <p align="justify">
+			<div class="avatar">
+                <div class="image-row">
+                <img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/Ch3_lander_Right.jpg" height="300" width="300">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/Rover_first_movement_with_Indian_emblem_and_flag.webp" height="300" width="300"> &nbsp; &nbsp;
+				</div>
+			</div>
+			<br><Br>
+			 <section id="launch">
+            <div class="title">    
+                <h2>Launch</h2>
+				</div>
+				<br>
+			<div class="avatar">
+				<div class="image-row">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.yC7SsdeyHKozjbQofDGEeAHaEK&pid=Api&P=0&h=180" heigth="800" width="300">
+                &nbsp; &nbsp; &nbsp;
+				<img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/MRM_8583.JPG.webp"  height="170" width="300"> &nbsp;
+				</div>
+            </div>  
+			  <br>
+            <p class="box">
+                 M4, Chandrayaan-3 – Launch vehicle lifting off from the second launch pad of SDSC-SHAR, Sriharikota
+                Chandrayaan-3 was launched aboard an LVM3-M4 rocket on 14 July 2023, at 09:05 UTC from Satish Dhawan Space Centre Second Launch Pad in Sriharikota, Andhra Pradesh, India, entering an Earth parking orbit with a perigee of 170 km (106 mi) and an apogee of 36,500 km (22,680 mi). On 15 November 2023, the Cryogenic Upper Stage (C25) of the rocket (NORAD ID: 57321) made an uncontrolled re-entry into the Earth’s atmosphere around 9:12 UTC. The impact point is predicted over the North Pacific Ocean and the final ground track did not pass over India.<br><br>
+				<a href="https://www.isro.gov.in/Chandrayaan3_curtainraiser_video.html" color="pink"> More Details </a></p>
+				</section>
+				<br><Br>
+            <p align="justify">
+		<div class="title">
+			<h2>Orbit</h2>
+		</div>
+		<br>
+			<div class="avatar">
+			  <div class="image-row">
+                <img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/Chandrayaan3_journey/9.jpg.webp" height="300" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+                <img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/Chandrayaan3_journey/11.jpg.webp" height="300" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/Chandrayaan3_journey/3.jpg.webp" height="300" width="300"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					
+                
+			   </div>
+			</div>
+            <p class="box">
+				After a series of Earth bound manoeuvres that placed Chandrayaan-3 in a trans-lunar injection orbit, ISRO performed a lunar-orbit insertion (LOI) on 5 August, successfully placing the Chandrayaan-3 spacecraft into an orbit around the Moon. The LOI operation was carried out from the ISRO Telemetry, Tracking, and Command Network (ISTRAC) in Bengaluru.
+                
+                On 17 August, the Vikram lander separated from the propulsion module to begin landing operations.</p><br><br>
+				<div class="title">
+                <h1> Animation of Chandrayaan-3</h1>
+				</div>
+            <br>
+               <p class="subtl">Around the Earth – orbit raising phase </p><br>
+                
+            
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Animation_of_Chandrayaan-3_around_Earth_-Orbit_raising.gif/360px-Animation_of_Chandrayaan-3_around_Earth-_Orbit_raising.gif" style="width="300" height="300" controls>
+           <BR><BR>
+            
+               <p class="subtl"> Around the Earth </p><br>
+            
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Animation_of_Chandrayaan-3_around_Earth.gif/360px-Animation_of_Chandrayaan-3_around_Earth.gif" style="width="300" height="300" controls>
+            <BR><BR>
+            
+              <p class="subtl"> Around the Moon</p> <br>
+            
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Animation_of_Chandrayaan-3_around_Moon.gif/360px-Animation_of_Chandrayaan-3_around_Moon.gif" style="width="300" height="300" controls>
+            <BR><br><br>
+			<div class="title">
+				<h2>Vikram lander</h2>
+			</div><br>
+				<div class="avatar">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chandrayaan-3_Lander.webp/608px-Chandrayaan-3_Lander.webp.png" height="300" width="400">
+				</div>
+                    
+					<p  align="justify">
+				
+                 <p class="box" align="justify">   
+                The Vikram lander was responsible for the soft landing on the Moon. It is also box-shaped, with four landing legs and four landing thrusters capable of producing 800 newtons of thrust each. It carried the rover and has various scientific instruments to perform on-site analysis.The lander has four variable-thrust engines with slew rate changing capabilities, unlike Chandrayaan-2's lander, which had five, with the fifth one being centrally mounted and capable only of fixed thrust. One of the main reasons for Chandrayaan-2's landing failure was altitude increase during the camera coasting phase. This was removed by allowing the lander to control altitude and thrust during all phases of descent. Altitude correction rate was increased from Chandrayaan-2's 10°/s to 25°/s with Chandrayaan-3. Additionally, the Chandrayaan-3 lander is equipped with a laser Doppler velocimeter (LDV) to allow measuring altitude in three directions. The impact legs were made stronger compared to Chandrayaan-2 and instrumentation redundancy was improved. It targeted a more precise 16 km2 (6.2 sq mi) landing region based on images provided by the Orbiter High-Resolution Camera (OHRC) onboard Chandrayaan-2's orbiter. ISRO improved the structural rigidity, increased polling in instruments, increased data frequency and transmission, and added additional multiple contingency systems to improve lander survivability in the event of failure during descent and landing.
+                    </p>
+                <br>
+                <h2 class="subtl">Rover</h2><br>
+                <p class="box" align="justify">
+                The Pragyan rover is a six-wheeled vehicle with a mass of 26 kilograms (57 pounds). It is 917 by 750 by 397 millimetres (36.1 in × 29.5 in × 15.6 in) in size.The rover is expected to take multiple measurements to support research into the composition of the lunar surface, the presence of water ice in the lunar soil, the history of lunar impacts, and the evolution of the Moon's atmosphere.
+            </p>
+                <br>
+				<div class="title">
+            <h2>Payloads</h2>
+			</div><br>
+            
+                <p class="subtl"> &nbsp; &nbsp; 1.On lander</p><br>
+                <p class="box" align="justify">
+                Chandra's Surface Thermophysical Experiment (ChaSTE) will measure the thermal conductivity and temperature of the lunar surface.
+                Instrument for Lunar Seismic Activity (ILSA) will measure the seismicity around the landing site.
+                Langmuir Probe (LP) will estimate the near-surface plasma density over time.
+                Laser Retroreflector Array (LRA) supplied by NASA's Goddard Space Flight Center serving as a fiducial marker on the moon.
+            </p>
+                <br>
+	
+           <p class="subtl">
+		&nbsp; &nbsp;2.On rover</p><br>
+           <p class="box" align="justify">
+                An alpha particle X-ray spectrometer (APXS) will derive the chemical composition and infer the mineralogical composition of the lunar surface.
+                Laser-induced breakdown spectroscopy (LIBS) will determine the elemental composition (Mg, Al, Si, K, Ca, Ti, Fe) of lunar soil and rocks around the lunar landing site.
+                Alpha Particle X-Ray Spectrometer (APXS)
+                Alpha Particle X-Ray Spectrometer (APXS)
+                 
+                Laser-Induced Breakdown Spectroscope (LIBS)
+                Laser-Induced Breakdown Spectroscope (LIBS)</p>
+<!--<p class="box" align="center">-->
+				<br><Br>
+                <h2 class="subtl">Video of Chandrayaan-3 Lander as captured by OHRC camera aboard Chandrayaan-2 Orbiter</h2><br>
+<div class="box"				
+				<center><iframe width="560" height="315" src="https://www.youtube.com/embed/_KaI7hvKM0Y?si=5CKSUL3wpssAXlMm&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</center>
+				<center><a href="video_gallery.html"> <p style="font-size:22px" "text-align:center">Show more videos </a></center></p>
+               </div>
+			   <h2 class="subtl">Chandrayaan-3 Lander on the Moon imaged by rover Pragyan 15 meters away</h2><br>
+                <p class="box" align="justify">
+                Pragyan roll out
+                On 23 August 2023, as the lander approached the low point of its orbit, its four engines fired as a braking manoeuvre at 30 kilometres (19 mi) above the Moon's surface. After 11.5 minutes, the lander was 7.2 km (4.5 miles) above the surface; it maintained this altitude for about 10 seconds, then stabilized itself using eight smaller thrusters and rotated from a horizontal to a vertical position while continuing its descent.
+                
+                It then used two of its four engines to slow its descent to roughly 150 metres (490 ft); it hovered there for about 30 seconds and located an optimal landing spot before continuing downward and touching down at 12:33 UTC.</p>
+                </p>
+                
+                </p>
+        </section>
+<br><Br>
+        <section id="team">
+		
+		 <div class="title">
+            <h2>Mission Team</h2>
+		</div>
+		<br>
+            <p class="box" align="justify">S. Somanath, ISRO Chairman
+
+                Assuming leadership at ISRO in January of the previous year, S. Somanath has emerged as a central figure in India’s ambitious lunar exploration. Prior to this esteemed role, he held directorial positions at the Vikram Sarabhai Space Centre (VSSC) and the Liquid Propulsion Systems Centre, both pivotal in crafting rocket technologies for ISRO. Under his astute guidance, he is overseeing key projects including Chandrayaan-3, Aditya-L1 (a solar research mission), and Gaganyaan (India’s inaugural manned space mission).
+                
+                M Sankaran, Director U R Rao Satellite Centre (URSC)
+                
+                In June 2021, M. Sankaran took on the position of Director at the U R Rao Satellite Centre (URSC), an institution entrusted with the design and construction of India’s entire satellite fleet for ISRO. At present, Sankaran guides the proficient team tasked with creating satellites tailored to India’s multifaceted requirements encompassing communication, navigation, remote sensing, weather prediction, and planetary exploration.
+                
+                S Unnikrishnan Nair, Director, Vikram Sarabhai Space Centre
+                
+                Situated in Thumba, Kerala, the Vikram Sarabhai Space Centre (VSSC) played a pivotal role in the evolution of the Geosynchronous Satellite Launch Vehicle (GSLV) Mark-III, rechristened as the Launch Vehicle Mark-III. Spearheading the VSSC, S. Unnikrishnan Nair and his accomplished team are taking care of critical parts of this mission.
+                
+                P Veeramuthuvel, Project Director of Chandrayaan-3
+                
+                Assuming the mantle of Project Director for Chandrayaan-3 in 2019, P. Veeramuthuvel’s journey has been marked by stellar achievements. Prior to this, he served as Deputy Director at the Space Infrastructure Programme Office housed within ISRO’s central headquarters. His pivotal role in steering the Chandrayaan-2 mission, the second chapter in India’s illustrious lunar exploration saga, underscores his expertise. Hailing from Villupuram in Tamil Nadu, he proudly stands as an alumnus of the Indian Institute of Technology Madras (IIT-M).</p>
+            <br><br>
+        </section>
+		<div class="title">
+            <h2>Latest Updates</h2>
+		</div><br>
+		<div class="box">
+		<div class="news-post">
+		
+      <h2 class="inline"><a href="/posts/1363">Celebrate the 2024 Eclipse with LROC</a></h2>
+      <div class="news-date"><i class="fa fa-calendar"></i><p> March 22, 2024<p></div>
+      <div class="news-lead"><figure class    alt="Ring of Fire’ Eclipse Brings Cheers and Shouts of Joy as It Moves ..." class=" nofocus" tabindex="0" aria-label="Ring of Fire’ Eclipse Brings Cheers and Shouts of Joy as It Moves ..." role="button" data-bm="4">    
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_mm6cJfbna8EtBWMIpMy-4NQCoptSu598nn3zB9YmZA&s">
+
+
+<figcaption><p>Image of the Sun almost completely covered by the Moon taken by the LROC team during the 2023 Annular Eclipse in Mesa Verde National Park, Colorado.</p></figcaption>
+</figure>
+<a href="news.html"><font-size:"22px"><p>Show More Latest News</p></font></a></p>
+
+<p>&nbsp;</p>
+</div>
+    </div>
+	</div>
+		
+		
+    </main><br>
+
+    <footer>
+        <p><center>&copy; 2024 Chandrayaan 3 Mission</center></p>
+    </footer>
+	</div>
+	</div>
+	
+</body>
+</html>
